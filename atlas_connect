@@ -1,0 +1,4 @@
+client = MongoClient("your_atlas_connection_string")
+db = client.your_database
+sessions_collection = db.sessions
+users_collection = db.users
